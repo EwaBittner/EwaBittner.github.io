@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 25px;
+    font-size: 19px;
+}
+
+header {
+    background-image: url(background_img.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.caption {
+    color: #000;
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+nav {
+    padding: 20px 20px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+nav > ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 40px 60px;
+    border-radius: 5px;
+    min-height: auto;
+    background-color: #E7DFC6;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+div > section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 50px;
+    padding-bottom: 70px;    
+    justify-items: center;
+    align-items: center;
+}
+
+.info-pic {
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid rgb(71, 68, 68);
+    align-content: center;
+}
+
+h2 {
+    align-items: center;
+    justify-self: center;
+}
+
+.icon {
+    grid-column: 1 / 2;
+    justify-self: center;
+    align-items: center;
+}
+
+p {
+    grid-column: 2 /3;
+    align-self: center;
+}
+
+.info > .right {
+    grid-row: 1 / 2;
+}
+
+section > ul {
+    list-style-type: circle;
+
+}
+
+button {
+    color: rgb(114, 109, 109);
+    border: 2px solid #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    padding: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0.8;
+}
+
+footer {
+    min-height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(68, 67, 67);
+}
+
+footer section {
+    color: rgb(245, 250, 249);
+    text-decoration: none;
+    padding: 10px 30px 30px 30px;
+    display: inline-flexbox;
+}
+
+footer a {
+    color: rgb(222, 248, 108);
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
